@@ -41,13 +41,13 @@ body {
 }
 
 .room {
-  background-image:url('wood.jpg');
+  background-image:url('im/wood.jpg');
   border: 10px ridge brown;
   height: 30%;
 }
 
 .header {
-  background-image:url('wood.jpg');
+  background-image:url('im/wood.jpg');
   box-sizing: border-box;
   height: 20%;
   border: 10px ridge brown;
@@ -55,14 +55,14 @@ body {
   text-align: center;
 }
 .leftroom {
-  background-image:url('wood.jpg');
+  background-image:url('im/wood.jpg');
   border: 10px ridge brown;
   box-sizing: border-box;
   height: 77.6%;
 }
 
 .leftmenu {
-  background-image:url('wood.jpg');
+  background-image:url('im/wood.jpg');
   box-sizing: border-box;
   float: left;
   border: 10px ridge brown;
