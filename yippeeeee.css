@@ -1,0 +1,91 @@
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+   HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color."   border-image: url('') 20;   background-image:url(''); padding: 50px;*/
+
+body {
+  color: black;
+  background-color:brown;
+  font-family: Verdana;
+  text-align: center;
+}
+
+.navigation {
+  font-size: 20px;
+  background-color: white;
+  box-sizing: border-box;
+  width: 500px;
+  margin: auto;
+  text-align: center;
+  background-image:url('');
+}
+
+.player {
+  background-color: white;
+  box-sizing: border-box;
+  margin: auto;
+  text-align: center;
+  background-image:url('');
+}
+
+.wall {
+  background-color: beige;
+}
+
+.box {
+  box-sizing: border-box;
+  float: right;
+  width: 70%;
+  border: 10px ridge brown;
+  margin: auto;
+  text-align: center;
+}
+
+.room {
+  background-image:url('wood.jpg');
+  border: 10px ridge brown;
+  height: 30%;
+}
+
+.header {
+  background-image:url('wood.jpg');
+  box-sizing: border-box;
+  height: 20%;
+  border: 10px ridge brown;
+  margin: auto;
+  text-align: center;
+}
+.leftroom {
+  background-image:url('wood.jpg');
+  border: 10px ridge brown;
+  box-sizing: border-box;
+  height: 77.6%;
+}
+
+.leftmenu {
+  background-image:url('wood.jpg');
+  box-sizing: border-box;
+  float: left;
+  border: 10px ridge brown;
+  width: 30%; /* three boxes (use 25% for four, and 50% for two, etc) */
+}
+
+#container {
+  height: 400px;
+  overflow: auto;
+}
+
+* {
+  padding: 0px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+hr {
+  border-top: 10px ridge brown;
+  border-bottom: 0px;
+  border-left: 0px;
+  border-right: 0px;
+}
