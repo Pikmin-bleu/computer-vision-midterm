@@ -2,18 +2,35 @@
    HTML content. To learn how to do something, just try searching Google for questions like
    "how to change link color."   border-image: url('') 20;   background-image:url(''); padding: 50px;*/
 
+   @font-face {
+    font-family: 'Futura';
+    src: url('im/Futura Book font.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: 'Queer';
+  src: url('im/Queer font.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
-  color: black;
-  background-color:brown;
+  color: white;
+  background-color:black;
   font-family: Verdana;
   text-align: center;
+  padding: 0px;
+  padding-top: 0px;
+  font-family: "Queer";
 }
 
 .navigation {
   font-size: 20px;
   background-color: white;
   box-sizing: border-box;
-  width: 500px;
+  width: 10%;
   margin: auto;
   text-align: center;
   background-image:url('');
@@ -27,65 +44,64 @@ body {
   background-image:url('');
 }
 
-.wall {
-  background-color: beige;
-}
-
 .box {
   box-sizing: border-box;
   float: right;
   width: 70%;
-  border: 10px ridge brown;
+  border: 5px ridge #DBF1FE;
   margin: auto;
   text-align: center;
 }
 
 .room {
-  background-image:url('im/wood.jpg');
-  border: 10px ridge brown;
-  height: 30%;
+  background-color: #232023;
+  border: 5px ridge #DBF1FE;
+  height: 47vh;
+}
+
+.loubox {
+  background-image:url('im/lou img.png');
+  background-size: cover;
+  border: 5px ridge #DBF1FE;
+  height: 50vh;
 }
 
 .header {
-  background-image:url('im/wood.jpg');
-  box-sizing: border-box;
-  height: 20%;
-  border: 10px ridge brown;
+  background-image:url('im/lou header.png');
+  background-size: cover;
+  background-attachment: fixed;
+  height: 50vh;
+  border: 5px ridge #DBF1FE;
   margin: auto;
   text-align: center;
 }
 .leftroom {
-  background-image:url('im/wood.jpg');
-  border: 10px ridge brown;
-  box-sizing: border-box;
-  height: 77.6%;
-}
-
-.leftmenu {
-  background-image:url('im/wood.jpg');
-  box-sizing: border-box;
-  float: left;
-  border: 10px ridge brown;
-  width: 30%; /* three boxes (use 25% for four, and 50% for two, etc) */
-}
-
-#container {
-  height: 400px;
+  background-color: #232023;
+  border: 5px ridge #DBF1FE;
+  height: 47vh;
   overflow: auto;
 }
 
-* {
-  padding: 0px;
+.leftmenu {
+  background-color: #232023;
+  box-sizing: border-box;
+  float: left;
+  border: 5px ridge #DBF1FE;
+  width: 30%; /* three boxes (use 25% for four, and 50% for two, etc) */
 }
 
 a {
-  color: black;
+  color: white;
   text-decoration: none;
 }
 
 hr {
-  border-top: 10px ridge brown;
+  border-top: 5px ridge #DBF1FE;
   border-bottom: 0px;
   border-left: 0px;
   border-right: 0px;
+}
+
+.rotate-image {
+  transform: rotate(-10deg);
 }
