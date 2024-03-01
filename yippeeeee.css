@@ -22,7 +22,6 @@ body {
   font-family: Verdana;
   text-align: center;
   padding: 0px;
-  padding-top: 0px;
   font-family: "Queer";
   image-rendering: pixelated;
 }
@@ -101,6 +100,10 @@ hr {
   border-bottom: 0px;
   border-left: 0px;
   border-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 .rotate-image-left {
