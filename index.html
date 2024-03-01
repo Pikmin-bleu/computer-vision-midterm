@@ -14,6 +14,17 @@
 data-config="{'skin':'skins/aquaBlue/skin.css','volume':45,'autoplay':false,'shuffle':false,'repeat':1,'placement':'bottom','showplaylist':false,'playlist':[{'title':'PINK PANTHER (Cover) by Black Dresses','url':'https://www.youtube.com/watch?v=uqCNKw0j7wQ'},{'title':'Hella Good (originally by No Doubt) by Underscores','url':'https://www.youtube.com/watch?v=9331Q8KBX7E'},{'title':'Ur not really bout it by Underscores','url':'https://www.youtube.com/watch?v=YZRR5XXI6aQ'},{'title':'Show Me What by A. G. Cook AND Cecile Believe','url':'https://www.youtube.com/watch?v=pWEosXQGG2w'},{'title':'Copy by default by Underscores','url':'https://www.youtube.com/watch?v=kbvZvLO9saw'}]}" ></script>
 <!-- SCM Music Player script end -->
 
+<script>
+  function myFunction() {
+    var x = document.getElementById("myDIV");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
+  </script>
+
 <img src="im/miku.png" class="rotate-image-right" style="max-width:15%; position:absolute; bottom:45%; right:30px; z-index:3;">
 <img src="im/lou pokemon.png" class="rotate-image-left" style="max-width:15%; position:fixed; bottom:50%; right:50%; z-index:3;">
 <img src="im/silly.svg" class="rotate-image-left" style="max-width:15%; position:absolute; bottom:70%; right:65%; z-index:3;">
@@ -33,6 +44,7 @@ data-config="{'skin':'skins/aquaBlue/skin.css','volume':45,'autoplay':false,'shu
 </div>
 
   <div class="leftroom">
+    <div id="myDIV">
     <font size="25"> <marquee direction="left">
       I AM NOT READY TO DIE YET: MAGNOLIA TREE
 GOING WILD OUTSIDE MY KITCHEN WINDOW
@@ -116,7 +128,7 @@ LET ME KNOW, NOT YET, NOT EVER, I NEED TO THINK
 I’LL SEE YOU, OH,
 SEE YOU
 AGAIN.
-      </marquee></font>
+      </marquee></font></div>
 <hr>
 <font size="5">DIARY</font>
 <hr>
@@ -129,7 +141,8 @@ My name is Addyson and this is my house :3 Pleased to meet you! I'm an art stude
 <br><img src="im/banner.png" width="88" height="31">
 
 <br><br>The text scrolling above is I Am Not Ready To Die Yet by Aracelis Girmay.
-<br><font color="red">It mentions animal death, </font> please click <a href="index copy.html">here</a> if you wish to disable it.
+<br><font color="red">It mentions animal death, </font> please click <button onclick="myFunction()">here</button> if you wish to disable it.
+
 </div>
   </body>
 </html>
