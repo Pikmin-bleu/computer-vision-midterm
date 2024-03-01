@@ -4,14 +4,14 @@
 
    @font-face {
     font-family: 'Futura';
-    src: url('im/Futura Book font.ttf') format('truetype');
+    src: url('../fun-site/im/Futura Book font.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
   font-family: 'Queer';
-  src: url('im/Queer font.TTF') format('truetype');
+  src: url('../fun-site/im/Queer font.TTF') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
