@@ -102,6 +102,9 @@ hr {
   border-right: 0px;
 }
 
-.rotate-image {
+.rotate-image-left {
   transform: rotate(-10deg);
+}
+.rotate-image-right {
+  transform: rotate(10deg);
 }
