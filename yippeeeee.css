@@ -17,15 +17,20 @@
 }
 
 body {
+  background-color: #232023;
   color: white;
-  background-color:black;
   font-family: Verdana;
   text-align: center;
   padding: 0px;
   font-family: "Queer";
   image-rendering: pixelated;
   font-size: 17px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
+
 
 .navigation {
   background-color: white;
@@ -79,6 +84,10 @@ body {
   background-color: #232023;
   border: 5px ridge #DBF1FE;
   height: 47vh;
+}
+object {
+  height: 47vh;
+  width: 68.7vw;
   overflow: auto;
 }
 
